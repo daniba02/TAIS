@@ -7,7 +7,7 @@
  * Daniel Barroso Casado
  * TAIS06
  *
- *@ </authors>*/
+ *@ </authors>
 
 #include <iostream>
 #include <fstream>
@@ -31,7 +31,7 @@ using namespace std;
  // ================================================================
  // Escribe el código completo de tu solución aquí debajo
  // ================================================================
- //@ <answer>*/
+ //@ <answer>*
 
 template <typename Valor>
 class ARM_Kruskal {
@@ -120,4 +120,4 @@ int main() {
     system("PAUSE");
 #endif
     return 0;
-}
+}*/
