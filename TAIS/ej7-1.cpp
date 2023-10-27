@@ -2,7 +2,7 @@
 /*
 @ <authors>
  *
- * Nombre, apellidos y usuario del juez (TAISXX) de los autores de la soluciÛn.
+ * Nombre, apellidos y usuario del juez (TAISXX) de los autores de la soluci√≥n.
  *
  * Daniel Barroso Casado
  * TAIS06
@@ -19,15 +19,15 @@ using namespace std;
 
 /*@ <answer>
 
- Escribe aquÌ un comentario general sobre la soluciÛn, explicando cÛmo
- se resuelve el problema y cu·l es el coste de la soluciÛn, en funciÛn
- del tamaÒo del problema.
+ Escribe aqu√≠ un comentario general sobre la soluci√≥n, explicando c√≥mo
+ se resuelve el problema y cu√°l es el coste de la soluci√≥n, en funci√≥n
+ del tama√±o del problema.
 
  @ </answer>
 
 
  // ================================================================
- // Escribe el cÛdigo completo de tu soluciÛn aquÌ debajo
+ // Escribe el c√≥digo completo de tu soluci√≥n aqu√≠ debajo
  // ================================================================
  //@ <answer>*/
 
@@ -71,7 +71,7 @@ private:
 
     void relajar(AristaDirigida<Valor> a) {
         int v = a.desde(), w = a.hasta();
-        if (dist[w] > dist[v] + a.valor()) {
+        if (dist[w] > dist[v] + a.valor() + a.hasta()) {
             dist[w] = dist[v] + a.valor() + a.hasta(); ulti[w] = a;
             pq.update(w, dist[w]);
         }
@@ -114,13 +114,13 @@ bool resuelveCaso() {
     else cout << sol.getDistancia() << "\n";
     // resolver el caso posiblemente llamando a otras funciones
 
-    // escribir la soluciÛn
+    // escribir la soluci√≥n
 
     return true;
 }
 
 //@ </answer>
-//  Lo que se escriba dejado de esta lÌnea ya no forma parte de la soluciÛn.
+//  Lo que se escriba dejado de esta l√≠nea ya no forma parte de la soluci√≥n.
 
 int main() {
     // ajustes para que cin extraiga directamente de un fichero
