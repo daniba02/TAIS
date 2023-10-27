@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plantilla_numcasos.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="plantilla_centinela.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="plantilla_casosilimitados.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej2-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej2-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej2-3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej3-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej2-4.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej2-e.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej1-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej1-1Diego.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej1-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej3-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej3-3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej4-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej4-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej4-3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej5-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej4-e.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej5-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej5-e.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej5-3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej5-4.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej6-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ConjuntosDisjuntos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="ej6-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej6-3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ej7-1.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TreeSet_AVL.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="BInTree.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Index_PQ.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Grafo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Digrafo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbin.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GrafoValorado.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="DigrafoValorado.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ej2-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej2-3.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej2-2.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej3-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej2-4.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej2-e.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej1-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej3-2.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej3-3.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej4-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej4-2.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej4-3.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej4-e.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej1-2.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej5-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej5-2.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej5-3.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej5-4.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej6-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej6-2.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej6-3.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej7-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
