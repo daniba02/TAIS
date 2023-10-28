@@ -152,6 +152,7 @@
     <ClCompile Include="ej6-2.cpp" />
     <ClCompile Include="ej6-3.cpp" />
     <ClCompile Include="ej7-1.cpp" />
+    <ClCompile Include="ej7-2.cpp" />
     <ClCompile Include="plantilla_casosilimitados.cpp" />
     <ClCompile Include="plantilla_centinela.cpp" />
     <ClCompile Include="plantilla_numcasos.cpp" />
@@ -193,6 +194,7 @@
     <Text Include="ej6-2.txt" />
     <Text Include="ej6-3.txt" />
     <Text Include="ej7-1.txt" />
+    <Text Include="ej7-2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

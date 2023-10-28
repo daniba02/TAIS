@@ -7,7 +7,7 @@
  * Daniel Barroso Casado
  * TAIS06
  *
- *@ </authors>*/
+ *@ </authors>
 
 #include <iostream>
 #include <fstream>
@@ -29,14 +29,14 @@ using namespace std;
  // ================================================================
  // Escribe el código completo de tu solución aquí debajo
  // ================================================================
- //@ <answer>*/
+ //@ <answer>
 
 template <typename Valor>
 class Dijkstra {
 public:
-    Dijkstra(DigrafoValorado<Valor> const& g, int orig, int dest) : origen(orig), dest(dest), dist(g.V(), INF), ulti(g.V()), pq(g.V()) {
-        dist[origen] = origen;
-        pq.push(origen, 0);
+    Dijkstra(DigrafoValorado<Valor> const& g, vector<int> v) : origen(0), dest(g.V() - 1), dist(g.V(), INF), ulti(g.V()), pq(g.V()), coste(v) {
+        dist[origen] = coste[0];
+        pq.push(origen, coste[0]);
         while (!pq.empty()) {
             int v = pq.top().elem; pq.pop();
             for (auto a : g.ady(v))
@@ -51,28 +51,20 @@ public:
     }
 
     Valor distancia(int v) const { return dist[v]; }
-    /*
-    Camino<Valor> camino(int v) const {
-        Camino<Valor> cam;
-        // recuperamos el camino retrocediendo
-        AristaDirigida<Valor> a;
-        for (a = ulti[v]; a.desde() != origen; a = ulti[a.desde()])
-            cam.push_front(a);
-        cam.push_front(a);
-        return cam;
-    }*/
+
 private:
     const Valor INF = std::numeric_limits<Valor>::max();
     int origen;
     int dest;
+    vector<int> coste;
     std::vector<Valor> dist;
     std::vector<AristaDirigida<Valor>> ulti;
     IndexPQ<Valor> pq;
 
     void relajar(AristaDirigida<Valor> a) {
         int v = a.desde(), w = a.hasta();
-        if (dist[w] > dist[v] + a.valor() + a.hasta()) {
-            dist[w] = dist[v] + a.valor() + a.hasta(); ulti[w] = a;
+        if (dist[w] > dist[v] + a.valor() + coste[w]) {
+            dist[w] = dist[v] + a.valor() + coste[w];
             pq.update(w, dist[w]);
         }
     }
@@ -96,7 +88,7 @@ bool resuelveCaso() {
         mx = max(mx, v[i]);    
     }
 
-    DigrafoValorado<int> g(mx + 1);
+    DigrafoValorado<int> g(n);
 
     cin >> m;
     int a1, a2, value;
@@ -104,11 +96,11 @@ bool resuelveCaso() {
     for (int i = 0; i < m; i++) {
 
         cin >> a1 >> a2 >> value;
-        g.ponArista({ v[a1 - 1], v[a2 - 1], value });
+        g.ponArista({ a1 - 1, a2 - 1, value });
 
     }
 
-    Dijkstra<int> sol (g, v[0], v[n - 1]);
+    Dijkstra<int> sol (g, v);
 
     if (sol.getDistancia() == -1) cout << "IMPOSIBLE\n";
     else cout << sol.getDistancia() << "\n";
@@ -137,4 +129,4 @@ int main() {
     system("PAUSE");
 #endif
     return 0;
-}
+}*/

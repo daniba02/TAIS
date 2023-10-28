@@ -99,6 +99,9 @@
     <ClCompile Include="ej7-1.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="ej7-2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeSet_AVL.h">
@@ -203,6 +206,9 @@
       <Filter>Archivos de recursos</Filter>
     </Text>
     <Text Include="ej7-1.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+    <Text Include="ej7-2.txt">
       <Filter>Archivos de recursos</Filter>
     </Text>
   </ItemGroup>
