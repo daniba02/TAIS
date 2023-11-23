@@ -6,7 +6,7 @@
  * Daniel Barroso Casado
  * TAIS06
  *
- *@ </authors>*/
+ *@ </authors>
 
 #include <iostream>
 #include <fstream>
@@ -28,7 +28,7 @@ using namespace std;
  // ================================================================
  // Escribe el código completo de tu solución aquí debajo
  // ================================================================
- //@ <answer>*/
+ //@ <answer>
 
 template <typename Valor>
 class Dijkstra {
@@ -47,16 +47,16 @@ public:
     int getCont() const { return cont[dest]; }
     bool hayCamino(int v) const { return dist[v] != INF; }
     Valor distancia(int v) const { return dist[v]; }
-    /*
-    Camino<Valor> camino(int v) const {
-        Camino<Valor> cam;
+    
+    //Camino<Valor> camino(int v) const {
+       Camino<Valor> cam;
         // recuperamos el camino retrocediendo
         AristaDirigida<Valor> a;
         for (a = ulti[v]; a.desde() != origen; a = ulti[a.desde()])
             cam.push_front(a);
         cam.push_front(a);
         return cam;
-    }*/
+    }
 private:
     const Valor INF = std::numeric_limits<Valor>::max();
     int origen;
@@ -124,4 +124,4 @@ int main() {
     system("PAUSE");
 #endif
     return 0;
-}
+}*/

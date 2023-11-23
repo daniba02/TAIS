@@ -153,6 +153,17 @@
     <ClCompile Include="ej6-3.cpp" />
     <ClCompile Include="ej7-1.cpp" />
     <ClCompile Include="ej7-2.cpp" />
+    <ClCompile Include="ej7-3.cpp" />
+    <ClCompile Include="ej7-3b.cpp" />
+    <ClCompile Include="ej7-4.cpp" />
+    <ClCompile Include="ej8-1.cpp" />
+    <ClCompile Include="ej8-2.cpp" />
+    <ClCompile Include="ej9-1.cpp" />
+    <ClCompile Include="ej9-2.cpp" />
+    <ClCompile Include="ej9-e.cpp" />
+    <ClCompile Include="ej9-e2.cpp" />
+    <ClCompile Include="ejA-1.cpp" />
+    <ClCompile Include="ejA-2.cpp" />
     <ClCompile Include="plantilla_casosilimitados.cpp" />
     <ClCompile Include="plantilla_centinela.cpp" />
     <ClCompile Include="plantilla_numcasos.cpp" />
@@ -162,11 +173,13 @@
     <ClInclude Include="BInTree.h" />
     <ClInclude Include="Digrafo.h" />
     <ClInclude Include="DigrafoValorado.h" />
+    <ClInclude Include="EnterosInf.h" />
     <ClInclude Include="Exceptions.h" />
     <ClInclude Include="Grafo.h" />
     <ClInclude Include="GrafoValorado.h" />
     <ClInclude Include="Index_PQ.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="Matriz.h" />
     <ClInclude Include="PriorityQueue.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="TreeSet_AVL.h" />
@@ -195,6 +208,15 @@
     <Text Include="ej6-3.txt" />
     <Text Include="ej7-1.txt" />
     <Text Include="ej7-2.txt" />
+    <Text Include="ej7-3.txt" />
+    <Text Include="ej7-4.txt" />
+    <Text Include="ej8-1.txt" />
+    <Text Include="ej8-2.txt" />
+    <Text Include="ej9-1.txt" />
+    <Text Include="ej9-2.txt" />
+    <Text Include="ej9-e.txt" />
+    <Text Include="ejA-1.txt" />
+    <Text Include="ejA-2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
