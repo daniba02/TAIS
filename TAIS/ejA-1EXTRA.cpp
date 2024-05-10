@@ -16,7 +16,7 @@
 using namespace std;
 
 #include "EnterosInf.h"
-#include "Matriz.h"
+
 
 /*@ <answer>
 
